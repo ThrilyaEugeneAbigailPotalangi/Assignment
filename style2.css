@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background-color: rgb(222, 237, 248);
+}
+.wrapper{
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: rgb(251, 252, 252);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+h1{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1.2rem;
+}
+h4{
+    font-size: small;
+    color: rgb(111, 110, 110);
+    margin-bottom: 1rem;
+
+}
+form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;   
+}
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    background: rgba(73, 185, 246, 0.801)
+}
+button:focus{
+    border: 1px solid rgb(192, 192, 192)
+}
+.terms{
+    margin-top: 0.2rem;
+}
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+}
+.terms label{
+    font-size: 0.7rem;
+
+}
+.member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #636363;
+}
+.form a:hover{
+    text-decoration: underline;
+
+}
+.line{
+    height: 1px;
+    width: 100%;
+    margin: 360px 0;
+    background-color:#d4d4d4;
+}
+.line::before{
+    content: 'or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #232836;
+    padding: 0 15px;
+
+}
